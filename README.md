@@ -1,6 +1,7 @@
 # Cinephile
 
 [Try it out](https://cinephileapp.netlify.app)
+
 Cinephile is a react movie app developed as a challenge to build a compelete react application to search movies and preview top trending content in under 2 hours.
 
 ## Available Scripts

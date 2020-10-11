@@ -6,13 +6,14 @@
 	font-weight: bold;
 
 	padding: 2vh 0vw 0 0vw;
-	height: 50px;
+	min-height: 50px;
 
 	max-width: 100%;
 	overflow: hidden;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .nav .brand {
