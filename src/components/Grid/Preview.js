@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { API } from "../../providers/Constants";
+const { REACT_APP_API } = process.env;
 const IMAGE = "https://image.tmdb.org/t/p/original";
 
 const Preview = ({
@@ -14,7 +14,7 @@ const Preview = ({
 	const [genres, setGenres] = useState([]);
 
 	const getDetails = async () => {
-		const URI = `https://api.themoviedb.org/3/movie/${id}?api_key=${API}&language=en-US`;
+		const URI = `https://api.themoviedb.org/3/movie/${id}?api_key=${REACT_APP_API}&language=en-US`;
 		const res = await fetch(URI, {
 			method: "GET",
 			headers: {
