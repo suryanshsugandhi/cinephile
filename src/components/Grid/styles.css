@@ -1,0 +1,76 @@
+.preview-container {
+	min-height: 40vh;
+	overflow: hidden;
+	z-index: 5;
+}
+
+.backdrop {
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: -5;
+	opacity: 0.4;
+}
+
+.backdrop .bottom-gradient {
+	position: absolute;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background: rgb(0, 0, 0);
+	background-image: linear-gradient(
+		to left top,
+		#000000,
+		#3b3b3b,
+		#777777,
+		#b9b9b9,
+		#ffffff
+	);
+	opacity: 0.1;
+}
+
+.backdrop img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+
+.preview-container .details {
+	width: 80vw;
+	padding: 0 5vw;
+	flex-wrap: wrap;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.preview-container .header {
+	margin-bottom: 2vh;
+}
+
+.preview-container .header p {
+	font-weight: bold;
+}
+
+.preview-container .title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.preview-container .rating {
+	font-size: 1.2rem;
+	margin: 2vh 0;
+}
+
+.preview-container .rating img {
+	height: 1.2rem;
+	padding: 0 5px;
+}
+
+.overview {
+	max-width: 50vw;
+	overflow-y: auto;
+	margin: 2vh 0;
+}

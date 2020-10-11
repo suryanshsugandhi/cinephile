@@ -1,0 +1,70 @@
+.nav {
+	background-color: transparent;
+
+	color: #fff;
+	text-shadow: 2px 2px 4px #000000;
+	font-weight: bold;
+
+	padding: 2vh 0vw 0 0vw;
+	height: 50px;
+
+	max-width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav .brand {
+	font-size: 28;
+	font-weight: bold;
+	padding: 0 2vw;
+	font-family: "Sansita Swashed", cursive;
+}
+
+.nav .brand .nav-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav .brand .nav-link:hover {
+	color: inherit;
+}
+
+.nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 1vw;
+}
+
+.nav ul li {
+	padding: 0 2vw;
+	font-size: 0.8rem;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.nav-link:hover {
+	color: #ca4913;
+}
+
+.nav .icon {
+	font-size: 0.5rem;
+	padding: 0 1vw;
+}
+
+.nav input {
+	padding: 8px 12px;
+	background: transparent;
+	color: inherit;
+	border: 1px solid white;
+	border-radius: 50px;
+	text-shadow: inherit;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
